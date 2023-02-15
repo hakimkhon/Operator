@@ -27,35 +27,35 @@ class User : UserInterface, SortInterface {
     }
 
     override fun sortByName() {
-        TODO("Not yet implemented")
+
     }
 
     override fun sortByBalance() {
-        TODO("Not yet implemented")
+
     }
 
     override fun sortByCompany() {
-        TODO("Not yet implemented")
+
     }
 
     override fun addUser() {
-        TODO("Not yet implemented")
+
     }
 
     override fun deleteUser() {
-        TODO("Not yet implemented")
+
     }
 
     override fun updateUser() {
-        TODO("Not yet implemented")
+
     }
 
     override fun findUser() {
-        TODO("Not yet implemented")
+
     }
 
     override fun allUsers() {
-        TODO("Not yet implemented")
+
     }
 
 }
