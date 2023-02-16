@@ -5,28 +5,53 @@ import util.UserInterface
 class User : UserInterface, SortInterface {
     private val userList: ArrayList<OperatorData> = ArrayList()
 
-    private fun sortingType() {
+    fun operators() {
         println(
             """
-            Saralash:
-            1 - Kompaniya bo'yicha
-            2 - Balans holati bo'yicha
-            3 - Ism bo'yicha
-            4 - Orqaga
+            1 - UCELL
+            2 - BEELINE
+            3 - UZMOBILE
+            4 - MOBIUZ
+            5 - BARCHASI
+            0 - ORQAGA
         """.trimIndent()
         )
-        print("Tanlash: ")
+        print("Tanlang: ")
 
         when (readln().toInt()) {
+            0 -> print("")
             1 -> sortByBalance()
             2 -> sortByName()
             3 -> sortByCompany()
             4 -> print("")
+            5 -> sortingType()
+            else -> operators()
+        }
+    }
+
+    fun sortingType() {
+        println(
+            """
+            *** Saralash ***
+            1 - Kompaniya bo'yicha
+            2 - Balans holati bo'yicha
+            3 - Ism bo'yicha
+            0 - Orqaga
+        """.trimIndent()
+        )
+        print("Tanlang: ")
+
+        when (readln().toInt()) {
+            0 -> print("")
+            1 -> sortByCompany()
+            2 -> sortByBalance()
+            3 -> sortByName()
             else -> sortingType()
         }
     }
 
     override fun sortByName() {
+
 
     }
 
