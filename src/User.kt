@@ -51,19 +51,6 @@ class User : UserInterface, SortInterface {
     }
 
     override fun sortByName() {
-        print("salom dunyo")
-        print("salllf jkdsk kk" +
-                "ksdjjfjsdjf" +
-                "Assalooaosdf " +
-                "asdfa kajsjjjffj".toString().length.inc().compareTo(34))
-        val sfssf : String
-        var simpleDaddd = 34345f
-        var yyeyr = true
-        print("demak o'zi topib olar ekan qancha ishlanganini")
-        print("""
-            ha endi tushindim lekin githubda muammo bo'lmoqda, shuni qanday hal qilsam bo'lar ekan
-        """.trimIndent())
-
 
     }
 
